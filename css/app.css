@@ -1,0 +1,66 @@
+*, *:after, *:before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    background: url(../img/bg.jpg) no-repeat center;
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 2rem 1rem;
+}
+
+.form {
+    padding: 3rem 1.5rem;
+    background-color: rgba(255, 255, 255, .95);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+label {
+    display: block;
+    text-align: center;
+    margin-bottom: .5rem;
+    font-size: 1.3rem;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 1rem;;
+    outline: none;
+    border: 2px solid #FDD287;
+    font-size: 1.3rem;
+    border-radius: 3px;
+}
+
+p {
+    background-color: #fff;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 2px solid #DDDBCE;
+    min-height: 6rem;
+    border-radius: 3px;
+}
+
+p:first-letter {
+    text-transform: uppercase;
+}
